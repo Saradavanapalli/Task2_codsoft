@@ -1,0 +1,46 @@
+body{
+    margin :0px;
+    padding:0px;
+    box-sizing: border-box;
+        background:cyan;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    width: 100%;
+
+
+}
+.calculas{
+    background:black;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.calculas form input {
+    height:60px;
+    width:60px;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size:20px;
+    margin: 5px;
+
+
+}
+
+form .display{
+    display: flex;
+    justify-content:flex-end;
+    
+    margin:20px 0px;
+    
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 30px;
+}
